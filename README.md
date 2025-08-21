@@ -2,6 +2,8 @@
 
 MCPLoader is a small helper module that lets you define and consume multiple MCP servers (stdio, SSE, or Streamable HTTP) from a JSON configuration. It uses `pydantic-ai` MCP clients and validates configuration with Pydantic models.
 
+[![PyPI Downloads](https://static.pepy.tech/badge/mcploader)](https://pepy.tech/projects/mcploader) [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/fswair/mcploader)
+
 ## Features
 - **HTTP (SSE / Streamable HTTP)** and **STDIO** server types
 - Configuration validation with **Pydantic**
