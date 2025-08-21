@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "server1": {
+    "command": "deno",
+    "args": [
+      "run",
+      "-N",
+      "-R=node_modules",
+      "-W=node_modules",
+      "--node-modules-dir=auto",
+      "jsr:@pydantic/mcp-run-python",
+      "stdio"
+    ],
+      "env": {
+        "OPENAI_API_KEY": "..."
+      },
+      "cwd": "/usr/path/to",
+      "timeout": 10,
+      "readTimeout": 300,
+      "maxRetries": 3
+    }
+  }
+}

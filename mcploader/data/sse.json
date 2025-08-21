@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "server1": {
+      "transport": {
+        "type": "sse",
+        "url": "http://127.0.0.1:8000/sse",
+        "headers": {
+          "Authorization": "Bearer your-token-here",
+          "Content-Type": "application/json",
+          "User-Agent": "Claude-Desktop/1.0",
+          "X-API-Version": "v1"
+        },
+        "timeout": 30000,
+        "readTimeout": 300000,
+        "maxRetries": 5
+      }
+    }
+  }
+}
